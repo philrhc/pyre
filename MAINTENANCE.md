@@ -27,7 +27,7 @@ triggers on:
 ## Deployment
 
 Deployment works by bumping the version, building a source distribution (`sdist`), and
-uploading it to [PyPI](https://pypi.org/project/zeromq-pyre/) using [`twine`](https://twine.readthedocs.io/).
+uploading it to [PyPI](https://pypi.org/project/colmena-zeromq-pyre/) using [`twine`](https://twine.readthedocs.io/).
 
 These steps are automated as part of the ["Bump version"](.github/workflows/bump_version.yml) and ["Deploy to PyPI"](.github/workflows/deploy.yml)
 Github Actions. See below for details.

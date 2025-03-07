@@ -4,8 +4,13 @@ except ImportError:
     from distutils.core import setup
 
 setup(
+<<<<<<< Updated upstream
         name='zeromq-pyre',
         version='0.3.5',
+=======
+        name='colmena-zeromq-pyre',
+        version='0.3.4',
+>>>>>>> Stashed changes
         description='Python ZRE implementation',
         author='Arnaud Loonstra',
         author_email='arnaud@sphaero.org',
